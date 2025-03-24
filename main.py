@@ -1,8 +1,10 @@
 import streamlit as st
 import time
-from settings import API_KEY
+# from settings import API_KEY
 
-st.write("API_KEY: ", API_KEY)
+# st.write("API_KEY: ", API_KEY)
+key = st.secrets["KEY"]
+st.write("KEY: ", key)
 
 st.title("Hello World!!!!!!")
 
