@@ -1,8 +1,8 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
 import time
+from settings import API_KEY
+
+st.write("API_KEY: ", API_KEY)
 
 st.title("Hello World!!!!!!")
 
